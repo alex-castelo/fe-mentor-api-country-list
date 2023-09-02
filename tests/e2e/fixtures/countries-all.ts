@@ -2197,4 +2197,745 @@ export const countriesAll = [
       latlng: [42.67, 21.17],
     },
   },
+  {
+    name: {
+      common: "Algeria",
+      official: "People's Democratic Republic of Algeria",
+      nativeName: {
+        ara: {
+          official: "الجمهورية الديمقراطية الشعبية الجزائرية",
+          common: "الجزائر",
+        },
+      },
+    },
+    tld: [".dz", "الجزائر."],
+    cca2: "DZ",
+    ccn3: "012",
+    cca3: "DZA",
+    cioc: "ALG",
+    independent: true,
+    status: "officially-assigned",
+    unMember: true,
+    currencies: {
+      DZD: {
+        name: "Algerian dinar",
+        symbol: "د.ج",
+      },
+    },
+    idd: {
+      root: "+2",
+      suffixes: ["13"],
+    },
+    capital: ["Algiers"],
+    altSpellings: ["DZ", "Dzayer", "Algérie"],
+    region: "Africa",
+    subregion: "Northern Africa",
+    languages: {
+      ara: "Arabic",
+    },
+    translations: {
+      ara: {
+        official: "الجمهورية الديمقراطية الشعبية الجزائرية",
+        common: "الجزائر",
+      },
+      bre: {
+        official: "Republik Aljerian Demokratel ha Poblel",
+        common: "Aljeria",
+      },
+      ces: {
+        official: "Alžírská demokratická a lidová republika",
+        common: "Alžírsko",
+      },
+      cym: {
+        official: "Gweriniaeth Ddemocrataidd Pobl Algeria",
+        common: "Algeria",
+      },
+      deu: {
+        official: "Demokratische Volksrepublik Algerien",
+        common: "Algerien",
+      },
+      est: {
+        official: "Alžeeria Demokraatlik Rahvavabariik",
+        common: "Alžeeria",
+      },
+      fin: {
+        official: "Algerian demokraattinen kansantasavalta",
+        common: "Algeria",
+      },
+      fra: {
+        official: "République démocratique et populaire d'Algérie",
+        common: "Algérie",
+      },
+      hrv: {
+        official: "Narodna Demokratska Republika Alžir",
+        common: "Alžir",
+      },
+      hun: {
+        official: "Algériai Népi Demokratikus Köztársaság",
+        common: "Algéria",
+      },
+      ita: {
+        official: "Repubblica popolare democratica di Algeria",
+        common: "Algeria",
+      },
+      jpn: {
+        official: "アルジェリア人民民主共和国",
+        common: "アルジェリア",
+      },
+      kor: {
+        official: "알제리 인민 민주 공화국",
+        common: "알제리",
+      },
+      nld: {
+        official: "Democratische Volksrepubliek Algerije",
+        common: "Algerije",
+      },
+      per: {
+        official: "جمهوری دموکراتیک خلق الجزایر",
+        common: "الجزایر",
+      },
+      pol: {
+        official: "Algierska Republika Ludowo-Demokratyczna",
+        common: "Algieria",
+      },
+      por: {
+        official: "República Argelina Democrática e Popular",
+        common: "Argélia",
+      },
+      rus: {
+        official: "Народно-Демократическая Республика Алжир",
+        common: "Алжир",
+      },
+      slk: {
+        official: "Alžírska demokratická ľudová republika",
+        common: "Alžírsko",
+      },
+      spa: {
+        official: "República Argelina Democrática y Popular",
+        common: "Argelia",
+      },
+      srp: {
+        official: "Народна Демократска Република Алжир",
+        common: "Алжир",
+      },
+      swe: {
+        official: "Demokratiska folkrepubliken Algeriet",
+        common: "Algeriet",
+      },
+      tur: {
+        official: "Cezayir Demokratik Halk Cumhuriyeti",
+        common: "Cezayir",
+      },
+      urd: {
+        official: "عوامی جمہوری جمہوریہ الجزائر",
+        common: "الجزائر",
+      },
+      zho: {
+        official: "阿尔及利亚人民民主共和国",
+        common: "阿尔及利亚",
+      },
+    },
+    latlng: [28.0, 3.0],
+    landlocked: false,
+    borders: ["TUN", "LBY", "NER", "ESH", "MRT", "MLI", "MAR"],
+    area: 2381741.0,
+    demonyms: {
+      eng: {
+        f: "Algerian",
+        m: "Algerian",
+      },
+      fra: {
+        f: "Algérienne",
+        m: "Algérien",
+      },
+    },
+    flag: "\uD83C\uDDE9\uD83C\uDDFF",
+    maps: {
+      googleMaps: "https://goo.gl/maps/RsAyAfyaiNVb8DpW8",
+      openStreetMaps: "https://www.openstreetmap.org/relation/192756",
+    },
+    population: 44700000,
+    gini: {
+      "2011": 27.6,
+    },
+    fifa: "ALG",
+    car: {
+      signs: ["DZ"],
+      side: "right",
+    },
+    timezones: ["UTC+01:00"],
+    continents: ["Africa"],
+    flags: {
+      png: "https://flagcdn.com/w320/dz.png",
+      svg: "https://flagcdn.com/dz.svg",
+      alt: "The flag of Algeria features two equal vertical bands of green and white. A five-pointed red star within a fly-side facing red crescent is centered over the two-color boundary.",
+    },
+    coatOfArms: {
+      png: "https://mainfacts.com/media/images/coats_of_arms/dz.png",
+      svg: "https://mainfacts.com/media/images/coats_of_arms/dz.svg",
+    },
+    startOfWeek: "sunday",
+    capitalInfo: {
+      latlng: [36.75, 3.05],
+    },
+    postalCode: {
+      format: "#####",
+      regex: "^(\\d{5})$",
+    },
+  },
+  {
+    name: {
+      common: "Mali",
+      official: "Republic of Mali",
+      nativeName: {
+        fra: {
+          official: "République du Mali",
+          common: "Mali",
+        },
+      },
+    },
+    tld: [".ml"],
+    cca2: "ML",
+    ccn3: "466",
+    cca3: "MLI",
+    cioc: "MLI",
+    independent: true,
+    status: "officially-assigned",
+    unMember: true,
+    currencies: {
+      XOF: {
+        name: "West African CFA franc",
+        symbol: "Fr",
+      },
+    },
+    idd: {
+      root: "+2",
+      suffixes: ["23"],
+    },
+    capital: ["Bamako"],
+    altSpellings: ["ML", "Republic of Mali", "République du Mali"],
+    region: "Africa",
+    subregion: "Western Africa",
+    languages: {
+      fra: "French",
+    },
+    translations: {
+      ara: {
+        official: "جمهورية مالي",
+        common: "مالي",
+      },
+      bre: {
+        official: "Republik Mali",
+        common: "Mali",
+      },
+      ces: {
+        official: "Republika Mali",
+        common: "Mali",
+      },
+      cym: {
+        official: "Republic of Mali",
+        common: "Mali",
+      },
+      deu: {
+        official: "Republik Mali",
+        common: "Mali",
+      },
+      est: {
+        official: "Mali Vabariik",
+        common: "Mali",
+      },
+      fin: {
+        official: "Malin tasavalta",
+        common: "Mali",
+      },
+      fra: {
+        official: "République du Mali",
+        common: "Mali",
+      },
+      hrv: {
+        official: "Republika Mali",
+        common: "Mali",
+      },
+      hun: {
+        official: "Mali Köztársaság",
+        common: "Mali",
+      },
+      ita: {
+        official: "Repubblica del Mali",
+        common: "Mali",
+      },
+      jpn: {
+        official: "マリ共和国",
+        common: "マリ",
+      },
+      kor: {
+        official: "말리 공화국",
+        common: "말리",
+      },
+      nld: {
+        official: "Republiek Mali",
+        common: "Mali",
+      },
+      per: {
+        official: "جمهوری مالی",
+        common: "مالی",
+      },
+      pol: {
+        official: "Republika Mali",
+        common: "Mali",
+      },
+      por: {
+        official: "República do Mali",
+        common: "Mali",
+      },
+      rus: {
+        official: "Республика Мали",
+        common: "Мали",
+      },
+      slk: {
+        official: "Malijská republika",
+        common: "Mali",
+      },
+      spa: {
+        official: "República de Malí",
+        common: "Mali",
+      },
+      srp: {
+        official: "Република Мали",
+        common: "Мали",
+      },
+      swe: {
+        official: "Republiken Mali",
+        common: "Mali",
+      },
+      tur: {
+        official: "Mali Cumhuriyeti",
+        common: "Mali",
+      },
+      urd: {
+        official: "جمہوریہ مالی",
+        common: "مالی",
+      },
+      zho: {
+        official: "马里共和国",
+        common: "马里",
+      },
+    },
+    latlng: [17.0, -4.0],
+    landlocked: true,
+    borders: ["DZA", "BFA", "GIN", "CIV", "MRT", "NER", "SEN"],
+    area: 1240192.0,
+    demonyms: {
+      eng: {
+        f: "Malian",
+        m: "Malian",
+      },
+      fra: {
+        f: "Malienne",
+        m: "Malien",
+      },
+    },
+    flag: "\uD83C\uDDF2\uD83C\uDDF1",
+    maps: {
+      googleMaps: "https://goo.gl/maps/u9mYJkCB19wyuzh27",
+      openStreetMaps: "https://www.openstreetmap.org/relation/192785",
+    },
+    population: 20250834,
+    gini: {
+      "2009": 33.0,
+    },
+    fifa: "MLI",
+    car: {
+      signs: ["RMM"],
+      side: "right",
+    },
+    timezones: ["UTC"],
+    continents: ["Africa"],
+    flags: {
+      png: "https://flagcdn.com/w320/ml.png",
+      svg: "https://flagcdn.com/ml.svg",
+      alt: "The flag of Mali is composed of three equal vertical bands of green, yellow and red.",
+    },
+    coatOfArms: {
+      png: "https://mainfacts.com/media/images/coats_of_arms/ml.png",
+      svg: "https://mainfacts.com/media/images/coats_of_arms/ml.svg",
+    },
+    startOfWeek: "monday",
+    capitalInfo: {
+      latlng: [12.65, -8.0],
+    },
+  },
+  {
+    name: {
+      common: "Senegal",
+      official: "Republic of Senegal",
+      nativeName: {
+        fra: {
+          official: "République du Sénégal",
+          common: "Sénégal",
+        },
+      },
+    },
+    tld: [".sn"],
+    cca2: "SN",
+    ccn3: "686",
+    cca3: "SEN",
+    cioc: "SEN",
+    independent: true,
+    status: "officially-assigned",
+    unMember: true,
+    currencies: {
+      XOF: {
+        name: "West African CFA franc",
+        symbol: "Fr",
+      },
+    },
+    idd: {
+      root: "+2",
+      suffixes: ["21"],
+    },
+    capital: ["Dakar"],
+    altSpellings: ["SN", "Republic of Senegal", "République du Sénégal"],
+    region: "Africa",
+    subregion: "Western Africa",
+    languages: {
+      fra: "French",
+    },
+    translations: {
+      ara: {
+        official: "جمهورية السنغال",
+        common: "السنغال",
+      },
+      bre: {
+        official: "Republik Senegal",
+        common: "Senegal",
+      },
+      ces: {
+        official: "Senegalská republika",
+        common: "Senegal",
+      },
+      cym: {
+        official: "Republic of Senegal",
+        common: "Senegal",
+      },
+      deu: {
+        official: "Republik Senegal",
+        common: "Senegal",
+      },
+      est: {
+        official: "Senegali Vabariik",
+        common: "Senegal",
+      },
+      fin: {
+        official: "Senegalin tasavalta",
+        common: "Senegal",
+      },
+      fra: {
+        official: "République du Sénégal",
+        common: "Sénégal",
+      },
+      hrv: {
+        official: "Republika Senegal",
+        common: "Senegal",
+      },
+      hun: {
+        official: "Szenegáli Köztársaság",
+        common: "Szenegál",
+      },
+      ita: {
+        official: "Repubblica del Senegal",
+        common: "Senegal",
+      },
+      jpn: {
+        official: "セネガル共和国",
+        common: "セネガル",
+      },
+      kor: {
+        official: "세네갈 공화국",
+        common: "세네갈",
+      },
+      nld: {
+        official: "Republiek Senegal",
+        common: "Senegal",
+      },
+      per: {
+        official: "جمهوری سنگال",
+        common: "سنگال",
+      },
+      pol: {
+        official: "Senegal",
+        common: "Senegal",
+      },
+      por: {
+        official: "República do Senegal",
+        common: "Senegal",
+      },
+      rus: {
+        official: "Республика Сенегал",
+        common: "Сенегал",
+      },
+      slk: {
+        official: "Senegalská republika",
+        common: "Senegal",
+      },
+      spa: {
+        official: "República de Senegal",
+        common: "Senegal",
+      },
+      srp: {
+        official: "Република Сенегал",
+        common: "Сенегал",
+      },
+      swe: {
+        official: "Republiken Senegal",
+        common: "Senegal",
+      },
+      tur: {
+        official: "Senegal Cumhuriyeti",
+        common: "Senegal",
+      },
+      urd: {
+        official: "جمہوریہ سینیگال",
+        common: "سینیگال",
+      },
+      zho: {
+        official: "塞内加尔共和国",
+        common: "塞内加尔",
+      },
+    },
+    latlng: [14.0, -14.0],
+    landlocked: false,
+    borders: ["GMB", "GIN", "GNB", "MLI", "MRT"],
+    area: 196722.0,
+    demonyms: {
+      eng: {
+        f: "Senegalese",
+        m: "Senegalese",
+      },
+      fra: {
+        f: "Sénégalaise",
+        m: "Sénégalais",
+      },
+    },
+    flag: "\uD83C\uDDF8\uD83C\uDDF3",
+    maps: {
+      googleMaps: "https://goo.gl/maps/o5f1uD5nyihCL3HCA",
+      openStreetMaps: "https://www.openstreetmap.org/relation/192775",
+    },
+    population: 16743930,
+    gini: {
+      "2011": 40.3,
+    },
+    fifa: "SEN",
+    car: {
+      signs: ["SN"],
+      side: "right",
+    },
+    timezones: ["UTC"],
+    continents: ["Africa"],
+    flags: {
+      png: "https://flagcdn.com/w320/sn.png",
+      svg: "https://flagcdn.com/sn.svg",
+      alt: "The flag of Senegal is composed of three equal vertical bands of green, golden-yellow and red, with a five-pointed green star centered in the golden-yellow band.",
+    },
+    coatOfArms: {
+      png: "https://mainfacts.com/media/images/coats_of_arms/sn.png",
+      svg: "https://mainfacts.com/media/images/coats_of_arms/sn.svg",
+    },
+    startOfWeek: "monday",
+    capitalInfo: {
+      latlng: [14.73, -17.63],
+    },
+    postalCode: {
+      format: "#####",
+      regex: "^(\\d{5})$",
+    },
+  },
+  {
+    name: {
+      common: "Western Sahara",
+      official: "Sahrawi Arab Democratic Republic",
+      nativeName: {
+        ber: {
+          official: "Sahrawi Arab Democratic Republic",
+          common: "Western Sahara",
+        },
+        mey: {
+          official: "الجمهورية العربية الصحراوية الديمقراطية",
+          common: "الصحراء الغربية",
+        },
+        spa: {
+          official: "República Árabe Saharaui Democrática",
+          common: "Sahara Occidental",
+        },
+      },
+    },
+    tld: [".eh"],
+    cca2: "EH",
+    ccn3: "732",
+    cca3: "ESH",
+    independent: false,
+    status: "officially-assigned",
+    unMember: false,
+    currencies: {
+      DZD: {
+        name: "Algerian dinar",
+        symbol: "دج",
+      },
+      MAD: {
+        name: "Moroccan dirham",
+        symbol: "DH",
+      },
+      MRU: {
+        name: "Mauritanian ouguiya",
+        symbol: "UM",
+      },
+    },
+    idd: {
+      root: "+2",
+      suffixes: ["125288", "125289"],
+    },
+    capital: ["El Aaiún"],
+    altSpellings: ["EH", "Taneẓroft Tutrimt"],
+    region: "Africa",
+    subregion: "Northern Africa",
+    languages: {
+      ber: "Berber",
+      mey: "Hassaniya",
+      spa: "Spanish",
+    },
+    translations: {
+      ara: {
+        official: "الجمهورية العربية الصحراوية الديمقراطية",
+        common: "الصحراء الغربية",
+      },
+      bre: {
+        official: "Republik Arab Saharaoui Demokratel",
+        common: "Sahara ar C'hornôg",
+      },
+      ces: {
+        official: "Západní Sahara",
+        common: "Západní Sahara",
+      },
+      cym: {
+        official: "Sahrawi Arab Democratic Republic",
+        common: "Western Sahara",
+      },
+      deu: {
+        official: "Demokratische Arabische Republik Sahara",
+        common: "Westsahara",
+      },
+      est: {
+        official: "Lääne-Sahara",
+        common: "Lääne-Sahara",
+      },
+      fin: {
+        official: "Länsi-Sahara",
+        common: "Länsi-Sahara",
+      },
+      fra: {
+        official: "République arabe sahraouie démocratique",
+        common: "Sahara Occidental",
+      },
+      hrv: {
+        official: "Sahrawi Arab Demokratska Republika",
+        common: "Zapadna Sahara",
+      },
+      hun: {
+        official: "Nyugat-Szahara",
+        common: "Nyugat-Szahara",
+      },
+      ita: {
+        official: "Repubblica Araba Saharawi Democratica",
+        common: "Sahara Occidentale",
+      },
+      jpn: {
+        official: "サハラアラブ民主共和国",
+        common: "西サハラ",
+      },
+      kor: {
+        official: "사하라 아랍 민주 공화국",
+        common: "서사하라",
+      },
+      nld: {
+        official: "Sahrawi Arabische Democratische Republiek",
+        common: "Westelijke Sahara",
+      },
+      per: {
+        official: "صحرای غربی",
+        common: "صحرای غربی",
+      },
+      pol: {
+        official: "Saharyjska Arabska Republika Demokratyczna",
+        common: "Sahara Zachodnia",
+      },
+      por: {
+        official: "República Árabe Saharaui Democrática",
+        common: "Saara Ocidental",
+      },
+      rus: {
+        official: "Sahrawi Арабская Демократическая Республика",
+        common: "Западная Сахара",
+      },
+      slk: {
+        official: "Západná Sahara",
+        common: "Západná Sahara",
+      },
+      spa: {
+        official: "República Árabe Saharaui Democrática",
+        common: "Sahara Occidental",
+      },
+      srp: {
+        official: "Сахарска Арапска Демократска Република",
+        common: "Сахарска Република",
+      },
+      swe: {
+        official: "Västsahara",
+        common: "Västsahara",
+      },
+      tur: {
+        official: "Sahra Demokratik Arap Cumhuriyeti",
+        common: "Sahra Demokratik Arap Cumhuriyeti",
+      },
+      urd: {
+        official: "صحراوی عرب عوامی جمہوریہ",
+        common: "مغربی صحارا",
+      },
+      zho: {
+        official: "阿拉伯撒哈拉民主共和国",
+        common: "西撒哈拉",
+      },
+    },
+    latlng: [24.5, -13.0],
+    landlocked: false,
+    borders: ["DZA", "MRT", "MAR"],
+    area: 266000.0,
+    demonyms: {
+      eng: {
+        f: "Sahrawi",
+        m: "Sahrawi",
+      },
+    },
+    flag: "\uD83C\uDDEA\uD83C\uDDED",
+    maps: {
+      googleMaps: "https://goo.gl/maps/7nU3mB69vP6zQp7A8",
+      openStreetMaps: "https://www.openstreetmap.org/relation/5441968",
+    },
+    population: 510713,
+    car: {
+      signs: [""],
+      side: "right",
+    },
+    timezones: ["UTC+00:00"],
+    continents: ["Africa"],
+    flags: {
+      png: "https://flagcdn.com/w320/eh.png",
+      svg: "https://flagcdn.com/eh.svg",
+    },
+    coatOfArms: {},
+    startOfWeek: "monday",
+    capitalInfo: {
+      latlng: [-13.28, 27.14],
+    },
+  },
 ];

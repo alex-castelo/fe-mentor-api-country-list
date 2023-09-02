@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 
 import { countriesAll } from "./fixtures/countries-all";
 
-test("See country list page", async ({ page }) => {
+test.beforeEach(async ({ page }) => {
   await page.route("*/**/v3.1/all", async (route) => {
     const json = countriesAll;
 
@@ -10,7 +10,9 @@ test("See country list page", async ({ page }) => {
   });
 
   await page.goto("http://localhost:3000/");
+});
 
+test("See country list page", async ({ page }) => {
   const pageTitle = page.getByText(/where in the world/i);
   const darkModeBtn = page.getByRole("button", { name: /dark mode/i });
   const continentSelect = page.locator("select");
@@ -23,36 +25,20 @@ test("See country list page", async ({ page }) => {
 
   const countryCard = page.getByTestId("country-card");
 
-  await expect(countryCard).toHaveCount(12);
+  await expect(countryCard).toHaveCount(16);
 });
 
 test("Can filter by continent", async ({ page }) => {
-  await page.route("*/**/v3.1/all", async (route) => {
-    const json = countriesAll;
-
-    await route.fulfill({ json });
-  });
-
-  await page.goto("http://localhost:3000/");
-
   const continentSelect = page.locator("select");
 
   await continentSelect.selectOption("Africa");
 
   const countryCard = page.getByTestId("country-card");
 
-  await expect(countryCard).toHaveCount(3);
+  await expect(countryCard).toHaveCount(7);
 });
 
 test("Can search a country using text input", async ({ page }) => {
-  await page.route("*/**/v3.1/all", async (route) => {
-    const json = countriesAll;
-
-    await route.fulfill({ json });
-  });
-
-  await page.goto("http://localhost:3000/");
-
   const inputSearch = page.getByRole("textbox");
 
   await inputSearch.type("Mauritania");
@@ -63,14 +49,6 @@ test("Can search a country using text input", async ({ page }) => {
 });
 
 test("Can enable dark and light mode", async ({ page }) => {
-  await page.route("*/**/v3.1/all", async (route) => {
-    const json = countriesAll;
-
-    await route.fulfill({ json });
-  });
-
-  await page.goto("http://localhost:3000/");
-
   const darkModeBtn = page.getByRole("button", { name: "Dark Mode" });
   await darkModeBtn.click();
 
