@@ -17,7 +17,7 @@ const routes: Readonly<RouteRecordRaw[]> = [
   },
   {
     path: "/:pathMatch(.*)*",
-    redirect: "/",
+    component: () => import("../views/CountryList/CountryList.vue"),
   },
 ];
 
