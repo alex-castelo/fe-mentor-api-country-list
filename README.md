@@ -12,9 +12,7 @@ This is a solution to the [REST Countries API with color theme switcher challeng
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -37,37 +35,29 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github repo](https://github.com/alex-castelo/fe-mentor-api-country-list)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://alex-castelo.github.io/fe-mentor-api-country-list/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- Hexagonal architecture
+- [Playwright - E2E testing](https://playwright.dev/)
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+When I started this project I had some ideas and things I wanted to test:
 
-To see how you can add code snippets, see below:
+- First of all, I wanted to try `Playwright` for E2E testing. (this is awesome)
+- Secondly, wanted to build some CI Steps - (did it with E2E tests)
+- And, while I'm learning about software arhitectures, I've tried to follow HEX Architecture in this project. (still learning)
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+If I had more time I could refactor components, try to improve the performance (especially when all the countries are loaded) because there are many nodes to render for the DOM and I'm sure it can be improved. I could also add unit tests and finish polishing the responsive design to make it "pixel perfect", but so far I'm satisfied because I've been able to try new things and I think it has turned out pretty well.
 
 ## Author
 
