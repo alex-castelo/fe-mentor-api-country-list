@@ -15,6 +15,10 @@ const routes: Readonly<RouteRecordRaw[]> = [
     props: true,
     component: () => import("../views/CountryDetail/CountryDetail.vue"),
   },
+  {
+    path: "/:pathMatch(.*)*",
+    redirect: "/",
+  },
 ];
 
 export const router = createRouter({
