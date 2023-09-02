@@ -23,7 +23,7 @@ const formattedPopulation = computed(() => {
 </script>
 
 <template>
-  <div class="card">
+  <div class="card" data-testid="country-card">
     <img
       loading="lazy"
       class="flag"
