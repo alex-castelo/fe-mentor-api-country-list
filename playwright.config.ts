@@ -38,7 +38,7 @@ export default defineConfig({
 
   webServer: {
     command: "npm run start",
-    url: "http://localhost:3000",
+    url: "http://localhost:3000/fe-mentor-api-country-list/",
     reuseExistingServer: !process.env.CI,
   },
 });
