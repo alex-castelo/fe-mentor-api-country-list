@@ -25,7 +25,6 @@ const formattedPopulation = computed(() => {
 <template>
   <div class="card" data-testid="country-card">
     <img
-      loading="lazy"
       class="flag"
       :src="country.flags.svg"
       :alt="`${country.name.common} flag`"
