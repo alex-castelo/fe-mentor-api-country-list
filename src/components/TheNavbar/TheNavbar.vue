@@ -33,7 +33,7 @@ const navbarContent = computed(() => {
 
 <template>
   <nav class="navbar">
-    <span><b>Where in the world?</b></span>
+    <span class="title"><b>Where in the world?</b></span>
     <button class="navbar-button" @click="switchColorMode">
       <font-awesome-icon :icon="navbarContent.icon" />
       <span v-text="navbarContent.text" />
@@ -45,6 +45,10 @@ const navbarContent = computed(() => {
 button {
   color: var(--text-color);
 }
+
+.title {
+  font-size: 1.25rem;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -53,9 +57,9 @@ button {
   height: 48px;
   font-size: var(--font-size-small);
   font-weight: bold;
-  -webkit-box-shadow: 0px 2px 0px 0px gray;
-  -moz-box-shadow: 0px 2px 0px 0px gray;
-  box-shadow: 0px 2px 0px 0px gray;
+  -webkit-box-shadow: 0px 1px 0px 0px gray;
+  -moz-box-shadow: 0px 1px 0px 0px gray;
+  box-shadow: 0px 1px 0px 0px gray;
 }
 
 .navbar-button {

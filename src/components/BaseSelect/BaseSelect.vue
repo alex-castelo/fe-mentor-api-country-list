@@ -1,6 +1,6 @@
 <template>
   <div class="select">
-    <select name="regions" v-model="value" placeholder="Filter by Region">
+    <select name="regions" v-model="value">
       <option value="" disabled selected>Filter by Region</option>
       <option v-for="option in options" :value="option.value">
         {{ option.text }}
