@@ -52,6 +52,8 @@ const formattedPopulation = computed(() => {
   border-radius: 8px;
   box-shadow: 0px 10px 9px -3px rgba(0, 0, 0, 0.1);
   background-color: var(--element-color);
+  content-visibility: auto;
+  contain-intrinsic-size: 300px;
 }
 
 .card:hover {
