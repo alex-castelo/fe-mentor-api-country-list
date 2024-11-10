@@ -13,13 +13,13 @@ jobs:
           version: 8
       - name: Install dependencies
         run: pnpm install
-      - name: Build project
-        run: pnpm run build
-      - name: Start preview server
-        run: pnpm run preview &
-      - name: Run Lighthouse CI
-        run: |
-          npm install -g @lhci/cli@0.14.x
-          lhci autorun --port=4173
+
+      - name: lighthouse mobile audit
+        run: yarn lhci:mobile
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
+      - name: lighthouse desktop audit
+        run: yarn lhci:desktop
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}

@@ -1,16 +1,12 @@
 {
-  "collect": {
-    "url": ["http://localhost:4173/fe-mentor-api-country-list/"],
-    "startServerCommand": "pnpm run preview",
-    "numberOfRuns": 3
-  },
   "ci": {
+    "collect": {
+      "startServerCommand": "pnpm run build && pnpm preview",
+      "url": ["http://localhost:4173/fe-mentor-api-country-list/"],
+      "numberOfRuns": 3
+    },
     "upload": {
       "target": "temporary-public-storage"
     }
-  },
-  "server": {
-    "command": "pnpm run preview",
-    "port": 4173
   }
 }
