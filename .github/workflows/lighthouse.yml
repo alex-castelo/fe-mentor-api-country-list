@@ -15,11 +15,11 @@ jobs:
         run: pnpm install
 
       - name: lighthouse mobile audit
-        run: yarn lhci:mobile
+        run: pnpm lhci:mobile
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
 
       - name: lighthouse desktop audit
-        run: yarn lhci:desktop
+        run: pnpm lhci:desktop
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
