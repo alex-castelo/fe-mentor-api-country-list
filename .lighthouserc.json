@@ -1,4 +1,9 @@
 {
+  "collect": {
+    "url": ["http://localhost:4173/fe-mentor-api-country-list/"],
+    "startServerCommand": "pnpm run preview",
+    "numberOfRuns": 3
+  },
   "ci": {
     "upload": {
       "target": "temporary-public-storage"

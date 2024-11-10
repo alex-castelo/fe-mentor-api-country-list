@@ -12,9 +12,12 @@ jobs:
         with:
           version: 8
       - name: Install dependencies
-        run: pnpm install && pnpm add -g @lhci/cli@0.6.x
+        run: pnpm install
       - name: Build project
         run: pnpm run build
-      - run: lhci autorun
+      - name: Start preview server
+        run: pnpm run preview &
+      - name: Run Lighthouse CI
+        run: lhci autorun
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
