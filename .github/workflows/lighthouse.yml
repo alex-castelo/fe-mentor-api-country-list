@@ -18,6 +18,8 @@ jobs:
       - name: Start preview server
         run: pnpm run preview &
       - name: Run Lighthouse CI
-        run: lhci autorun
+        run: |
+          npm install -g @lhci/cli@0.14.x
+          lhci autorun
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
