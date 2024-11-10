@@ -9,6 +9,7 @@ type CountryCardFields = Pick<
 
 const props = defineProps<{
   country: CountryCardFields;
+  isLazy?: boolean;
 }>();
 
 const capital = computed(() => {
@@ -25,6 +26,7 @@ const formattedPopulation = computed(() => {
 <template>
   <div class="card" data-testid="country-card">
     <img
+      :loading="isLazy ? 'lazy' : 'eager'"
       class="flag"
       :src="country.flags.svg"
       :alt="`${country.name.common} flag`"

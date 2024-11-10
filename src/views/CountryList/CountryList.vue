@@ -52,8 +52,9 @@ const navigateTo = (countryName: Country["name"]["common"]) => {
     <Transition v-if="countryList?.length">
       <div class="countries">
         <country-card
-          v-for="country in filteredCountries"
+          v-for="(country, i) in filteredCountries"
           :country="country"
+          :isLazy="i > 10"
           @click="navigateTo(country.name.common)"
         />
       </div>
